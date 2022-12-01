@@ -31,7 +31,7 @@ body {
 }
 
 .huera-logo {
-	height: 60px;
+	height: 2.5vw;
 }
 
 .huera-nav {
@@ -46,7 +46,7 @@ body {
 
 .huera-nav-list,
 li {
-	font-size: 40px;
+	font-size: 1.5vw;
 	padding-left: 100px;
 }
 
@@ -66,14 +66,15 @@ a:hover {
 }
 
 /* 1024 and below responsive */
-@media screen and (min-width: 1201px) and (max-width: 2024px) {
+
+@media screen and (min-width: 1024px) and (max-width: 1550px) {
 	.huera-banner-container {
 		display: flex;
 		flex-direction: column;
 	}
 
 	.huera-logo {
-		height: 75px;
+		height: 5vw;
 	}
 
 	.huera-nav {
@@ -88,7 +89,7 @@ a:hover {
 
 	.huera-nav-list,
 	li {
-		font-size: 40px;
+		font-size: 2vw;
 		padding: 0;
 		margin: 30px 30px;
 	}
@@ -109,7 +110,7 @@ a:hover {
 	}
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
 	.huera-nav {
 		display: none;
 	}
@@ -124,7 +125,7 @@ a:hover {
 	}
 
 	.huera-logo {
-		height: 75px;
+		height: 8vw;
 		margin-left: 100px;
 	}
 
